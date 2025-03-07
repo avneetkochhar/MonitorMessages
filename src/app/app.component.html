@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Service Monitoring Dashboard</h2>
+  <div class="status-card" ngClass="{'online': serviceStatus.online, 'offline': !serviceStatus.online}">
+    <h3>{{ serviceStatus.name }}</h3>
+    <p>Status: {{ serviceStatus.online ? 'Online' : 'Offline' }}</p>
+    <p>Last Updated: {{ serviceStatus.lastChecked }}</p>
+  </div>
+</div>

@@ -1,0 +1,4 @@
+.container { text-align: center; padding: 20px; }
+.status-card { border-radius: 8px; padding: 20px; margin-top: 20px; }
+.online { background-color: #d4edda; color: #155724; }
+.offline { background-color: #f8d7da; color: #721c24; }
