@@ -1,13 +1,9 @@
 <div class="container">
-  <h2>Service Monitoring Dashboard</h2>
+  <h2>Messages per second</h2>
   <div class="status-card">
+    <div *ngFor="let  account  of mapEntries">
+    {{account[1] | json}} 
+    </div>
 
-     
-        <!-- <pre>{{ serviceStatus.phone }} : {{ serviceStatus.count }} : {{ serviceStatus.ttl }}</pre> -->
-
-        <div *ngFor="let  entry  of mapEntries">
-          Phone: {{ entry[0] }}, Limt: {{ entry[1] }}  per {{ ttl }} 
-        </div>
-      
   </div>
 </div>
